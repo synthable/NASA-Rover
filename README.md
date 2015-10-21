@@ -34,3 +34,18 @@ the x and y co-ordinates and the rover's orientation.
 Each rover will be finished sequentially, which means that the second rover won't start to 
 move until the first one has finished moving.
 
+# How To Run
+user@ubuntu:~/NASA$ php -v
+PHP 5.6.4-4ubuntu6 (cli) (built: Apr 17 2015 15:47:51)
+Copyright (c) 1997-2014 The PHP Group
+Zend Engine v2.6.0, Copyright (c) 1998-2014 Zend Technologies
+    with Zend OPcache v7.0.4-dev, Copyright (c) 1999-2014, by Zend Technologies
+
+user@ubuntu:~/NASA$ php ./tests/phpunit.phar --bootstrap ./tests/bootstrap.php tests/
+PHPUnit 4.7.6 by Sebastian Bergmann and contributors.
+
+......
+
+Time: 538 ms, Memory: 11.75Mb
+
+OK (6 tests, 33 assertions)
